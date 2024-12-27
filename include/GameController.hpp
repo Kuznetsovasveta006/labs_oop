@@ -29,6 +29,7 @@ GameController<Input, Displayer>::GameController(GameCycle& game)
     actions[action::load] = [&](){curr_session.load();};
     actions[action::save] = [&](){curr_session.save();};
     actions[action::exit] = [&](){curr_session.exit();};
+    actions[action::restart] = [&](){curr_session.startNewGame();};
 }
 
 template<class Input, class Displayer>
@@ -36,7 +37,6 @@ void GameController<Input, Displayer>::run()
 {
     curr_session.startNewGame();
 
-    // while (!curr_session.bot_win)
     while (true)
     {
         output.displayMsg("Enter your move");

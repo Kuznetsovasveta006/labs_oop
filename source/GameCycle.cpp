@@ -8,6 +8,8 @@ GameCycle::GameCycle(Game game) :
     
 void GameCycle::startNewGame()
 {
+    bot_win = false;
+    player_win = false;
     output.logMsg("Welcome!");
     output.logMsg("Press [l] to load or anything else to continue");
     if (input.getAction() == action::load)

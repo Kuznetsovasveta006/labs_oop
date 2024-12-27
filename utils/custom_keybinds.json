@@ -3,6 +3,6 @@
     "c" : "ability",
     "s" : "save",
     "l" : "load",
-    "r" : "start_new_game",
+    "r" : "restart",
     "w" : "exit"
 }

@@ -39,7 +39,7 @@ protected:
         {"ability", action::ability},
         {"save", action::save},
         {"load", action::load},
-        {"start_new_game", action::restart},
+        {"restart", action::restart},
         {"exit", action::exit}
     };
     bool getX(int& x);
