@@ -1,0 +1,8 @@
+{
+    "a" : "attack",
+    "c" : "ability",
+    "s" : "save",
+    "l" : "load",
+    "r" : "start_new_game",
+    "w" : "exit"
+}
